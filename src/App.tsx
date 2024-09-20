@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className={'flex flex-col h-full items-center justify-between text-6xl p-5 bg-white text-black dark:bg-slate-900 dark:text-white'}>
-      <h1 className="text-8xl text-center">SpeedMath</h1>
+      <h1 className="text-6xl font-bold text-center">SpeedMath</h1>
       <Problem problem={currentProblem} onCorrect={handleCorrect} onIncorrect={handleIncorrect} />
       <ScoreDisplay good={good} bad={bad} />
       
